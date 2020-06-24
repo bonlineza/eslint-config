@@ -2,7 +2,13 @@
   "name": "@bonlineza/eslint-config",
   "version": "1.0.0",
   "description": "company wide eslint configuration",
+  "author": "Sebastian Scholle",
+  "license": "MIT",
   "main": "index.js",
+  "files": [
+    "README.MD",
+    "index.js"
+  ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -10,8 +16,6 @@
     "eslint",
     "eslintconfig"
   ],
-  "author": "Sebastian Scholle",
-  "license": "UNLICENCED",
   "peerDependencies": {
     "eslint": ">= 6",
     "prettier": "^2.0.5"
